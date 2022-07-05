@@ -1,0 +1,86 @@
+ @font-face {
+    font-family: poppins;
+    src: url(Poppins-Medium.ttf);
+ }
+
+ body {
+    font-family: poppins;
+ }
+
+ .container {
+    width: 95%;
+    margin: auto 10px;
+    font-size: 13pt;
+ }
+
+ form input {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+ }
+
+ form label {
+    display: block;
+    margin: 10px auto;
+ }
+
+ .register {
+    width: 100%;
+    background-color: rgb(53, 32, 109);
+    border: 1px solid rgb(53, 32, 109);
+    border-radius: 3px;
+    padding: 12px;
+    color: white;
+    margin: 20px auto;
+    font-size: 12pt;
+    font-family: "poppins";
+ }
+
+ .login {
+    color: #000;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    text-decoration: none;
+ }
+
+ .googleBtn {
+    color: #fff;
+    text-decoration: capitalize;
+    background: royalblue;
+    border: 1px solid royalblue;
+    font-size: 13pt;
+    padding: 12px;
+    border-radius: 3px;
+    width: 100%;
+    margin: 10px auto;
+    font-family: "poppins";
+ }
+
+ .choice {
+    background: #fff;
+    position: absolute;
+    margin-top: -22px;
+    left: 48%;
+    padding: 2px;
+ }
+
+@media screen and (min-width:768px) {
+   .container{
+      width: 60%;
+      background: whitesmoke;
+      border-radius: 3px;
+      margin: auto 50px;
+      margin-left: 140px;
+      padding: 20px;
+   }
+  .login{
+     right: 180px;
+     top: 60px;
+  }
+ .choice{
+    background: whitesmoke;
+ }
+}

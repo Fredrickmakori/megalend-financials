@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Registration portal</title>
+   <meta name="keywords" content="HTML,CSS">
+   <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+   <div class="container">
+      <h2>Registration portal</h2>
+      <form class="signupForm">
+
+         <a href="login.html" class="login">Login</a>
+
+         <label for="email">Email </label>
+         <input type="email" placeholder="email@example.com" name="email" />
+
+         <label for="psw"> Password </label>
+         <input type="password " name="password" placeholder="password " />
+         <button class="register">Register</button>
+      </form>
+      <hr />
+      <p class="choice">OR</p>
+      <button onclick="handleGoogleSignup()" class="googleBtn">
+         Continue with Google
+      </button>
+   </div>
+</body>
+<script src="bundle.js"></script>
+
+</html>
